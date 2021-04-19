@@ -19,11 +19,12 @@ div{
 
 p.target
 {
-	text-align:center;
-	background-color:red;
-	width:100px;
-	position: relative;
-	left:70%;
+	 float: right;
+      background-color: pink;    
+      width: 100px;    
+      height: 30px;    
+      margin-top: 1%;
+      text-align: center;
 }
 
 @media(min-width: 992px)
@@ -32,6 +33,7 @@ div.Col-lg-4
 {
 	float:left;
 	border:2px;
+	padding: 2px;
 }
 .Column1
 {
@@ -53,6 +55,7 @@ div.Col-md-6
 {
 	float:left;
 	border:5px;
+	padding: 2px;
 }
 
 .Column1
@@ -75,6 +78,7 @@ div.Col-sm-4
 {
 	float:left;
 	border:2px;
+	padding: 2px;
 }
 .Column1
 {
