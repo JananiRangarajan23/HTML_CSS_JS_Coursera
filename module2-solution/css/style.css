@@ -5,38 +5,87 @@ body
 h1{
 	text-align: center;
 }
+.row
+{
+	width:100%;
+	position:relative;
+}
+
 div{
 	background-color: gray;
-	border: 1px solid black;
-	width:48%;
-	margin:10px 10px 10px 10px;
+	border: 3px;
+	margin:4px;
 }
-div.target
+
+p.target
 {
 	text-align:center;
 	background-color:red;
 	width:100px;
 	position: relative;
-	left:83%;
+	left:70%;
 }
 
 @media(min-width: 992px)
 {
- 
-}
-@media(min-width:768px ,max-width: 991px)
+div.Col-lg-4
 {
+	float:left;
+	border:2px;
+}
 .Column1
 {
-
+	width:32%;
 }
 .Column2
 {
-	float:right;
+	width:32%;
 }
 .Column3
 {
-	clear:both;
+	width:32%;
 }
 }
+
+@media(min-width:768px) and (max-width: 991px)
+{
+div.Col-md-6
+{
+	float:left;
+	border:5px;
+}
+
+.Column1
+{
+	width:45%;
+}
+.Column2
+{
+	width:45%;
+}
+.Column3
+{
+	width:99%;
+}
+}
+
 @media(max-width: 767px)
+{
+div.Col-sm-4
+{
+	float:left;
+	border:2px;
+}
+.Column1
+{
+	width:50%;
+}
+.Column2
+{
+	width:50%;
+}
+.Column3
+{
+	width:50%;
+}
+}
