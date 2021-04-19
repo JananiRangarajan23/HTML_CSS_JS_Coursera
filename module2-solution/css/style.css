@@ -12,7 +12,7 @@ h1{
 }
 
 div{
-	background-color: gray;
+	background-color: lightgray;
 	border: 3px;
 	margin:4px;
 }
@@ -32,8 +32,7 @@ p.target
 div.Col-lg-4
 {
 	float:left;
-	border:2px;
-	padding: 2px;
+	border:2px solid black;
 }
 .Column1
 {
@@ -54,8 +53,7 @@ div.Col-lg-4
 div.Col-md-6
 {
 	float:left;
-	border:5px;
-	padding: 2px;
+	border:1px solid black;
 }
 
 .Column1
@@ -68,7 +66,7 @@ div.Col-md-6
 }
 .Column3
 {
-	width:99%;
+	width:90%;
 }
 }
 
@@ -76,20 +74,20 @@ div.Col-md-6
 {
 div.Col-sm-4
 {
+	align-self:center;
 	float:left;
-	border:2px;
-	padding: 2px;
+	border:1px solid black;
 }
 .Column1
 {
-	width:50%;
+	width:80%;
 }
 .Column2
 {
-	width:50%;
+	width:80%;
 }
 .Column3
 {
-	width:50%;
+	width:80%;
 }
 }
